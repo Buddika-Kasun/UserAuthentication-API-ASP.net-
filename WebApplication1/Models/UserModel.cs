@@ -17,6 +17,8 @@ namespace Server.Models
 
         public DateTime createdAt { get; set; }
 
+        public DateTime updatedAt { get; set; }
+
         [Required]
         [StringLength(50)]
         public string fullName { get; set; }
